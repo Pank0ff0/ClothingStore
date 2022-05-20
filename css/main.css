@@ -1,0 +1,713 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family:'PT Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+
+
+ul{
+	margin: 0;
+}
+li {
+    list-style-type: none;
+   }
+
+.header{
+	position: sticky;
+	top:0;
+	background: #0F0F0F;
+
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+.logo{
+	font-size: 36px;
+	font-family:'Post No Bills Jaffna', sans-serif;
+	font-weight: bold;
+	color:white;
+	margin: 0px 0px;
+}
+
+.logo-a{
+	text-decoration: none;
+}
+
+.btn{
+	text-decoration: none;
+	color:#969696;
+	background:#0F0F0F;
+	height: 22px;
+	padding: 31px 20px;
+	transition: all 0.3s ease;
+	display: block;
+}
+
+.btn2{
+	padding: 29px 20px;	
+}
+
+.btn:hover
+{
+	background:#1F1F1F;	
+	color:#FFFFFF;
+}
+
+
+.btn1{
+	text-decoration: none;
+	color:#969696;
+	background: ##0F0F0F;
+	padding: 31px 20px;
+	transition: all 0.3s ease;
+	display: block;
+}
+
+.btn1:hover
+{
+	background:#1F1F1F;	
+	color:#FFFFFF;
+}
+
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wrapper2{
+	display: flex;
+	align-items: center;
+}
+
+
+.learn{
+	padding-top: 180px;
+	background: url('../img/screen1.png') no-repeat center top;
+}
+
+
+.logo1{
+	display: block;
+	margin: 0 auto;	
+	transition: all 0.3s ease;
+}
+
+.info{
+	margin:0 auto;
+	font-size: 16px;
+	color:#FFFFFF;
+	width: 730px;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	Line-height:1.5em;
+	padding-top: 100px;
+	padding-bottom: 189px;
+}
+
+.katalog{
+	background: #000;
+}
+
+.about{
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.kol{
+	text-transform: uppercase;
+	color: #FFF;
+	font-family: 'EB Garamond', serif; 
+	margin: 0;
+	font-size: 36px;
+	letter-spacing: 0.06em;
+	text-align: center;
+
+}
+
+.hr{
+	width: 120px;
+	margin: 0;
+	margin: 0 auto;
+	margin-top:31px;
+	margin-bottom: 45px;
+
+}
+
+.zag{
+	margin:0 auto;	
+	margin-top: 100px;
+}
+
+.textkol{
+	text-align: center;
+	color:#fff;
+	width: 471px;
+	margin: 0;
+	Line-height: 1.5em; 
+}
+
+.btntitle{
+	color:#fff;
+	text-transform: uppercase;
+	border: 1px solid #fff;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	box-sizing: border-box;
+	display: block;
+	width: 317px;
+	padding: 12px 28px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top:60px;
+	transition: all 0.5s ease;
+}
+
+.btntitle:hover{
+	color:#000;
+	background: #fff;
+
+}
+
+
+.btnkat{
+	width: 140px;
+	margin-top: 0;
+}
+
+.hr1{
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+
+.kolb{
+	background: url('../img/screen3.png') no-repeat right top;
+
+}
+
+.zag1{
+	margin-top: 0px;
+}
+
+.zag2{
+	margin: 0px 252px;
+	margin-top: 484px;
+}
+
+.about1{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer{
+	background: #0F0F0F;
+	padding:17px 0px;
+}
+.pfooter{
+	margin: 0px;
+	color:#fff;
+	transform-size: 12px;
+}
+
+
+
+.hr1{
+	width: 120px;
+	margin: 0;
+	margin: 0 auto;
+	margin-top:49px;
+	margin-bottom: 50px;
+
+}
+
+.hr2{
+	width: 120px;
+	margin: 0;
+	margin: 0 auto;
+	margin-top:30px;
+	margin-bottom: 30px;
+
+}
+
+.clock:hover{
+	background: #363838;	
+}
+
+.clock{
+	padding: 55px 22px 56px 23px;
+	background:#191B1C;
+	transition: all 0.5s ease;
+}
+
+.nazv{
+	font-family: 'EB Garamond', serif; 
+	font-size: 18px;
+	color:white;
+	margin-top: 25px;
+	margin-bottom: 10px;
+
+}
+
+.price{
+	font-family: 'EB Garamond', serif; 
+	font-size: 16px;
+	color:white;
+
+}
+
+.kartsps{
+	display: flex;
+	justify-content: space-between;
+}
+
+.shop{
+	margin: 76px 80px;
+
+}
+
+.p0{
+	padding: 0;
+}
+
+
+.m1{
+	margin-left: 50px;
+}
+
+
+.p50{
+	padding-left: 50px;
+}
+
+.cena{
+	text-decoration: none;
+
+}
+
+.post{
+	background: #000;
+}
+
+.kolpost{
+	padding-top: 120px;
+	padding-bottom: 40px;
+}
+
+.hrpost{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.kartpost{
+	margin-top:81px;
+	margin-bottom: 40px;
+}
+
+.kartpost1{
+	padding-bottom: 150px;
+}
+
+.m2{
+	margin-left: 21px;
+}
+
+.brend{
+	background:#0F0F0F;
+}
+
+
+.kolbrend{
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.hrbrend{
+	margin-bottom: 0;
+}
+
+.spbrlogo{
+	padding-top: 40px;
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: space-between;	
+}
+
+
+.about2{
+	background: url('../img/about.png') no-repeat center top;
+	padding-top: 80px;
+}
+
+.omag{
+	color:white;
+	font-size: 24px;
+	font-family: 'EB Garamond', serif; 
+	font-weight: 400;
+	margin: 0;
+	padding-bottom: 40px;
+}
+
+.about-text{
+	color:white;
+	width: 350px;
+	line-height: 1.5em;	
+	margin: 0;
+	padding-bottom: 100px;
+}
+
+.sp{
+	display: flex;
+	justify-content: space-between;		
+}
+
+.btn10{
+	padding: 10px 20px;
+	background: #0F0F0F;
+	color:white;
+	border:0;
+	cursor: pointer;
+	text-decoration: none;
+	transition: all 0.5s ease;
+
+}
+
+.knop{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;	
+}
+
+.btn9{
+	margin-right: 20px;
+}
+
+.btn10:hover{
+	background: #3C3C3C;
+}
+
+.ccc{
+	padding: 0;
+	margin-bottom: 37px;
+}
+
+.mail{
+	border:0;
+	text-size:14px;
+	font-family:'PT Sans', sans-serif;
+	padding-left: 15px;
+	padding-right: 0;
+
+	width: 210px;
+	height: 42px;
+	color:white;
+	background: rgba(255, 255, 255, 0.4);
+}
+.form1{
+	display: flex;
+	justify-content: space-around;
+}
+.btn8{
+	background: #0F0F0F;
+	color:white;
+	border:0;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 14px 20px;
+	letter-spacing: 0.05em;
+
+}
+
+.btn8:active{
+	background: #3C3C3C;
+}
+
+::-webkit-input-placeholder { 
+    color:  #C4C4C4;
+}
+
+
+
+
+
+
+
+
+
+/*Responsive*/
+/* 1500px - 1800px */
+@media screen and (max-width: 1800px) {
+	.kolb{
+		display: none;
+	}
+
+
+	.shop{
+		margin: 0 auto;
+		margin-top: 76px;
+		margin-bottom: 76px;
+	}
+}
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.kolb{
+		display: block;
+	}
+
+	.shop{
+
+		margin: 0 auto;
+		margin-top: 76px;
+		margin-bottom: 76px;
+	}
+	.m1{
+		margin-left: 30px;
+	}
+
+	.about1{
+		flex-direction: column;
+	}
+
+	.kolb{
+		background: url(../img/screen3.png) no-repeat center;
+		background-size: 100%;
+		height: 730px;
+	}
+
+	.about{
+		flex-direction: column-reverse;
+
+	}
+
+	.kartpost{
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	.kartpost1{
+		flex-direction: column;
+		padding-bottom: 0;
+
+	}
+
+	.novpostkol{
+		display: flex;
+		padding-bottom: 150px;
+		width: 540px;
+		margin: 0 auto;
+	}
+
+	.mar0{
+		margin-left: 0;
+		margin-top: 40px;
+	}
+
+	.karpost12{
+		margin-top: 81px;
+		justify-content: space-between;
+		margin-left: 30px;
+	}
+
+	.kategor{
+		display: none;
+	}
+
+
+	.toti{
+		margin: 0 auto;
+	}
+
+	.about-text{
+		width: 300px;
+		padding-bottom: 79px;
+	}
+
+	.ccc{
+		padding-bottom: 0;
+	}
+
+	.btntitle{
+		margin-bottom: 70px;
+	}
+}
+
+
+
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	
+	.rass{
+		display: none;
+	}	
+
+	.kartsps{
+		flex-direction: column;
+
+	}
+
+
+	.m7{
+		margin-left: 0;
+	}
+
+	.kartsps{
+		width: 260px;
+		margin: 0 auto;
+	}
+	.novpostkol{
+		margin-top: 81px;
+	}
+
+	.info{
+		width: 550px;
+		padding-bottom: 165px;
+	}
+
+	.btntitle{
+		margin-bottom: 0;
+	}
+
+	.zag2{
+		margin-top: 410px;
+	}
+	
+	.kolb{
+		height: 640px;
+	}
+
+	.btntitle{
+		margin-bottom: 70px;
+	}
+
+	.btn00{
+		display: none;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+	.spbrnone{
+		display: none;
+	}
+
+	
+
+	.info{
+		width: 400px;
+		padding-bottom: 115px;
+	}
+
+	.btn{
+
+		padding: 31px 15px;
+	}
+
+	.kolb{
+		height: 470px;
+	}
+
+	.zag2{
+		margin: 0 auto;
+		padding-top: 230px;
+		width: 400px;
+	}
+
+	.novpostkol{
+		width: 530px;;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.novpostkol{
+		width: 260px;
+	}
+	.container {
+		width: 90%;
+	}
+
+	.btn{
+		display: none;
+	}
+
+	.info{
+		width: 275px;
+		padding-bottom: 20px;
+	}
+
+	.novpostkol{
+		flex-direction: column;
+	}
+
+	.kartsps {
+    margin: 0;
+}
+    .kol{
+    	font-size: 20px;
+    }
+
+    .hr{
+    	width:80px;
+    }
+
+
+    .textkol{
+    	font-size: 10px;
+    	width: 260px;
+    }
+
+    .btntitle{
+    	width: 150px;
+    	font-size: 10px;
+    	margin-top: 20px;
+    }
+
+    .kolb{
+    	height: 270px;
+    }
+
+
+    .ghjg{
+    	margin-bottom: 0px;
+    	width: 100px;
+    }
+
+    .hr2{
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    }
+
+    .zag2{
+    	padding-top: 140px;
+    	width: 250px;
+    }
+
+    .spbrlogo{
+    	flex-direction: column;
+    }
+
+    .logo1{
+    	width: 270px;
+    	height: 270px;
+    }
+}
+
